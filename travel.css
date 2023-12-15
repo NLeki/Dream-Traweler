@@ -1,0 +1,431 @@
+
+*{
+         margin: 1px;
+         padding: 1px;
+         font-family: Georgia, Helvetica, sans-serif;
+       
+ }
+body {
+        background-color:#f7ede2;
+
+        /* display: block; */
+        
+        
+}
+
+h1{
+        background-image: linear-gradient(60deg,#e0afa0, #587b7f,#000,#587B7F,#000,#E0AFA0);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        -webkit-text-fill-color:transparent;
+}
+.name h1:hover{
+        color:#587B7F,#E0AFA0;
+        font-family:Arial, Helvetica, sans-serif;
+        
+        
+}
+.name h1{
+        margin-top: 20px;
+        padding-left: 120px;
+}
+
+nav{
+        display:flex;
+        transform: 100px;
+        justify-content: center;
+        align-items:center;
+        padding-right: 10px;
+        margin-top:-50px; */
+       
+        
+        
+}
+nav h2{ 
+        font-size: 22px;
+        color:rgb(195, 138, 123);
+        cursor: pointer;
+        margin:2px;
+        padding-left:45px;
+        margin-top:15px;
+        
+}
+nav ul{ flex:60px;
+        text-align:right;
+        
+        
+
+}
+nav ul li {
+        list-style:none ;
+        display:inline-block;
+        transition: 0.1s ease-out;
+      
+
+}
+nav ul li:hover{border-bottom: 2px solid rgb(224, 175, 160);
+
+}
+nav ul li a{
+        text-decoration: non;
+        font-size: 15px;
+        color: rgb(88, 123, 127);
+        font-weight: bold;
+}
+#uber{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -5px;
+  transition: 0.1 ease;
+
+}
+#uber:hover{
+        border:3px solid #587B7F;
+        
+}
+.body{
+        width:96%;
+        display:flex;
+        justify-content:space-around;
+        margin:20px;
+        padding-top: 90px;
+        
+        
+}
+.body h2{
+        background-image: linear-gradient(60deg, #587b7f,#000,#587B7F,#000,#E0AFA0);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        -webkit-text-fill-color:transparent;
+}  
+        
+        /* Div single containers designed */
+
+.container img{
+        width:150px;
+        height:150px;
+        border:3px;
+        border-radius: 10%;
+        border-color: #E0AFA0;
+        box-shadow: 5px 5px 10px #d1bbb5;
+}
+.container2 img{
+        width:150px;
+        height:150px;
+        border:3px;
+        border-radius: 10%;
+        border-color: #E0AFA0;
+        box-shadow: 5px 5px 10px #d1bbb5;
+}
+.container3 img{
+        width:150px;
+        height:150px;
+        border:3px;
+        border-radius: 10%;
+        border-color: #E0AFA0;
+        box-shadow: 5px 5px 10px #d1bbb5;
+}
+.container4 img{
+        width:150px;
+        height:150px;
+        border:3px;
+        border-radius: 10%;
+        border-color: #E0AFA0;
+        box-shadow: 5px 5px 10px #d1bbb5;
+}
+.container5 img{
+        width:150px;
+        height:150px;
+        border:3px;
+        border-radius: 10%;
+        border-color: #E0AFA0;
+        box-shadow: 5px 5px 10px #d1bbb5;
+}
+.container6 img{
+        width:150px;
+        height:150px;
+        border:3px;
+        border-radius: 10%;
+        border-color: #E0AFA0;
+        box-shadow: 5px 5px 10px #d1bbb5;
+}
+
+                /* Image background*/
+
+#picture-background{
+        width:100%;
+        height:100%;
+        border-radius: 1%;
+        object-fit:cover;
+        
+
+}
+#picture-container{
+      margin-top:490px;
+      margin-bottom:70px;
+      position:absolute;
+      top: 0;
+      left: 0;
+      width:100%;
+      height:100%;
+      z-index: -1;
+      box-shadow: 10px 10px 20px #d1bbb5;
+} 
+
+/* --------------Home page---------------- */
+
+.body{
+        width:96%;
+        display:flex;
+        justify-content:space-around;
+        margin: 0 20px;
+        padding-top: 90px;
+        
+        
+}
+
+.home { margin-bottom: 100px;
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+}
+
+.content {
+        width: 50%;
+        height: 250px;
+        margin: auto 10px auto auto;
+        display: flex;
+        align-items: center;
+        background-color: #D7BFA550;
+
+        padding: 30px 50px 50px;
+        margin-right: auto;
+        
+
+        border-radius: 30px;
+        box-shadow:5px 5px 5px 5px #e0afa0;
+        
+        
+}
+
+.home img {
+        margin: auto auto auto 30px;
+        margin-top: 12%;
+        height: 340px;
+        width: 480px;
+        overflow: hidden;
+        border-radius: 10%;
+        box-shadow:5px 5px 5px 5px #e0afa0;
+}
+.home img:hover{
+        transform: scale(1.1);
+        transition-duration: 3s;
+        
+
+}
+
+.search-box {
+        margin: 15px auto;
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3px;
+        /* box-shadow: 5px 5px 5px 5px #e0afa0; */
+        border-radius: 5px;
+}
+
+.search-box img{
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+        margin: 0 10px;
+        display: flex;
+        
+}
+
+.search-bar{
+        padding-left: 10px;
+        margin-left:5px;
+        display: flex;
+}
+
+span {
+        color: #496669 !important;
+}
+
+.content h1 {
+        font-size: 48px;
+}
+
+.body h2{
+        background-image: linear-gradient(60deg, #587b7f,#000,#587B7F,#000,#E0AFA0);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        -webkit-text-fill-color:transparent;
+} 
+.slogan{
+        /* box-shadow:5px 5px 5px 5px #e0afa0; */
+        align-content: center;
+        
+} 
+
+        
+/* Footer */
+
+.footer {
+        display:block;
+        margin-top:120px;
+        margin-left: 20px;
+        margin-top:90px;
+}
+        
+
+
+.socialmedia{
+        margin-bottom:8%;
+        display:flex;
+        text-align: center;
+        height:40px;
+        position: relative;
+}
+.socialmedia img{
+        max-width:30%;
+        height:60%;
+        margin-top: 60px;
+        margin-right: 50px;
+        text-align: center;
+        display: flex;
+        position: relative;
+        padding-left: 230px;
+
+}
+
+
+
+
+/* Nabila's Destination's page */
+
+.searchBox{
+        background-color: rgba(240, 151, 126, 0.226);
+        padding: 16px;
+        width: 850px;
+        margin: 0 auto;
+        margin-top: 70px;
+        margin-bottom: 50px;
+}
+
+.search-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: stretch;
+        align-items: center;
+
+}
+
+input {
+        border-radius: 15px;
+        padding: 10px;
+        margin-left: 10px;
+        border: none;
+        height: 20px;
+        font-size: 20px;
+        
+}
+
+.searchButton {
+        padding: 10px;
+        height: 40px;
+        margin-left: 10px;
+        border: none;
+        font-size: 20px;
+        background-color: #587B7F;
+        border-radius: 15px;
+        color: white;
+
+}
+
+.topImage {
+        width: 100%;
+        height: 586px;
+        object-fit: cover;
+}
+
+.subtitle {
+        color:rgb(88, 123, 127);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: stretch;
+        align-items: center;
+        margin: 10px;
+        font-size: 35px;
+        font-weight: bold;
+}
+
+.paragraphTop {
+        width: 1000px;
+        height: 100px;
+        text-align: center;
+        margin: auto;
+        font-size: large;
+        padding-top: 80px;
+        padding-bottom: 40px ;
+}
+
+.continent {
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+}
+
+.citySubtitles {
+        color:rgb(88, 123, 127);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: stretch;
+        align-items: center;
+}
+
+.cities {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+}
+
+
+
+.seoul, .jakarta, .mumbai, .amsterdam, .london, .vienna {
+        width: 500px;
+        height: min-content;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        word-break: break-word;
+        display: inline-block;
+        vertical-align: middle;   
+}
+
+.Paragraphs {
+        width: 400px;
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+}
+
+.seoul img, .jakarta img, .mumbai img, .amsterdam img, .london img, .vienna img {
+        width: 400px;
+        height: 250px;
+        object-fit: cover;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+}
